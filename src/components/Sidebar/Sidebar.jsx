@@ -2,9 +2,9 @@ import './SideBar.css'
 
 const SideBar = () => {
     return (
-        <div>
-            <a href="#">Home Page</a>
-            <a href="#">About Page</a>
+        <div className='SideBar'>
+            <a href='#'>Home Page</a>
+            <a href='#'>About Page</a>
         </div>
     )
 }
