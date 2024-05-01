@@ -1,13 +1,19 @@
-import './NavBar.css'
-import ToDo from './../../assets/ToDo.png'
+import reactLogo from './../../assets/react.svg'
+import navicon from './../../assets/navicon.png'
+import './Navbar.css'
 
-const NavBar = () => {
+const Navbar = () => {
     return (
-        <header className='NavBar'>
-            <img src={ToDo} alt="Logo" />
-            <p><h1>ToDo</h1></p>
-        </header>
+        <div className="Navbar">
+            <nav>
+                <div className='buttons'>
+                    <img src={navicon} alt="Navicon" className='navicon' />
+                    <h1>Students</h1>
+                </div>
+                <img src={reactLogo} alt="Logotipo" className='logo' />
+            </nav>
+        </div>
     )
 }
 
-export default NavBar
+export default Navbar

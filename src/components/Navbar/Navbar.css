@@ -1,20 +1,30 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.NavBar {
+.Navbar {
     border-bottom: 1px solid;
-    padding: 20px;
+    background-color: rgb(219, 233, 255);
+    padding: 5px;
+}
+
+.Navbar .buttons,
+.Navbar nav {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
-.NavBar img {
-    width: 80px;
+.Navbar nav {
+    width: 100%;
+}
+
+.Navbar .navicon {
+    width: 40px
+}
+
+.Navbar .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+}
+
+.Navbar h1 {
+    margin-left: 20px;
 }

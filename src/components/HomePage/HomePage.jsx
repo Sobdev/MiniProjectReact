@@ -1,13 +1,18 @@
-import NavBar from './../NavBar/NavBar'
-import SideBar from './../SideBar/SideBar'
-import Footer from './../Footer/Footer'
+import Footer from "../Footer/Footer"
+import Navbar from "../Navbar/Navbar"
+import Sidebar from "../Sidebar/Sidebar"
+import StudentsList from "../StudentsList/StudentsList"
+
+import './HomePage.css'
 
 const HomePage = () => {
     return (
-        <div className='HomePage'>
-            <NavBar />
-            <SideBar />
-            <Footer />
+        <div className="HomePage">
+            <Navbar />
+            <main className="main-content">
+                <Sidebar />
+                <StudentsList />
+            </main>
         </div>
     )
 }

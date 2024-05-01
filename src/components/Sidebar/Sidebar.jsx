@@ -1,12 +1,23 @@
-import './SideBar.css'
+import './Sidebar.css'
 
-const SideBar = () => {
+const Sidebar = () => {
     return (
-        <div className='SideBar'>
-            <a href='#'>Home Page</a>
-            <a href='#'>About Page</a>
+        <div className="Sidebar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Students</a>
+                    </li>
+                    <li>
+                        <a href="#">Add student</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     )
 }
 
-export default SideBar
+export default Sidebar

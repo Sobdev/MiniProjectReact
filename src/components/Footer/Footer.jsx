@@ -1,9 +1,7 @@
-import './Footer.css'
-
 const Footer = () => {
     return (
-        <div>
-            <a href="https://github.com/Yosobo/MiniProjectReact.git">Link to our GitHub repo</a>
+        <div className="Footer">
+            <h1>FooterFooterFooterFooterFooter</h1>
         </div>
     )
 }
