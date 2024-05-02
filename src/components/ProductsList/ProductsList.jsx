@@ -32,7 +32,10 @@ const ProductsList = () => {
                 </thead>
                 <tbody>
                     {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 803cff2b0392447172dbb6a309c2bb2c3634f774
                         products.map(eachProduct => {
                             return (
                                 <ProductRow
