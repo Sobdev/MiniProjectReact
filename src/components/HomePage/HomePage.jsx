@@ -1,8 +1,6 @@
-import Footer from "../Footer/Footer"
-import MobilesList from "../MobilesList/MobilesList"
 import Navbar from "../Navbar/Navbar"
 import Sidebar from "../Sidebar/Sidebar"
-// import MobilesRow from "../MobilesRow/MobilesRow"
+import ProductsList from "../ProductsList/ProductsList"
 
 import './HomePage.css'
 
@@ -12,7 +10,7 @@ const HomePage = () => {
             <Navbar />
             <main className="main-content">
                 <Sidebar />
-                <MobilesList />
+                <ProductsList />
             </main>
         </div>
     )

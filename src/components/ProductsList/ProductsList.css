@@ -1,0 +1,19 @@
+.ProductsList table,
+.ProductsList {
+    width: 100%;
+}
+
+.ProductsList table {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.ProductsList thead th {
+    border-bottom: 3px solid black;
+    padding: 15px;
+}
+
+.ProductsList td {
+    padding: 15px;
+    border-bottom: 1px solid #ccc
+}

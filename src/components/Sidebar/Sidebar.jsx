@@ -6,10 +6,10 @@ const Sidebar = () => {
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Students</a>
+                        <a href="#">Products</a>
                     </li>
                     <li>
-                        <a href="#">Add student</a>
+                        <a href="#">Add product</a>
                     </li>
                     <li>
                         <a href="#">About</a>
