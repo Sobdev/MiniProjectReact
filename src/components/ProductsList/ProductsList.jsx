@@ -3,6 +3,7 @@ import ProductRow from "../ProductRow/ProductRow"
 import productsData from './../../data/products.json'
 
 import './ProductsList.css'
+import { Link } from "react-router-dom"
 
 const ProductsList = () => {
 
@@ -31,6 +32,7 @@ const ProductsList = () => {
                 </thead>
                 <tbody>
                     {
+
                         products.map(eachProduct => {
                             return (
                                 <ProductRow

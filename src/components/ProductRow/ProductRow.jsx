@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom"
+import productsData from './../../data/products.json'
+
 const ProductRow = ({ id, title, brand, price, rating, handleProductRemove }) => {
 
     return (
         <tr>
-            <td>{title}</td>
+            <td><Link to={`/ProductSelectedDetails/${id}`}>{title}</Link></td>
             <td>{brand}</td>
             <td>{price}</td>
             <td>
