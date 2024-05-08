@@ -1,6 +1,8 @@
 .Sidebar {
     border-right: 1px solid;
     width: 250px;
+    min-height: 100vh;
+    float: left;
 }
 
 .Sidebar ul {

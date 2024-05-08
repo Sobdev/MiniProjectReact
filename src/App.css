@@ -11,3 +11,9 @@ body {
 img {
   width: 100%;
 }
+
+.main-content {
+  width: calc(100% - 250px);
+  float: left;
+  padding-left: 10px;
+}
